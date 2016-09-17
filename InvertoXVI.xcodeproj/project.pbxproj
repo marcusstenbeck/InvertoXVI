@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72AE7831D85C20800EAC46A /* AccelerometerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72AE7811D85C0F200EAC46A /* AccelerometerComponent.swift */; };
+		A72AE7851D85C4CD00EAC46A /* InvertoMoverComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72AE7841D85C4CD00EAC46A /* InvertoMoverComponent.swift */; };
+		A72AE7861D85DF6100EAC46A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73ED0F61D8594C600626005 /* GameScene.swift */; };
 		A73ED0F11D8594C600626005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73ED0F01D8594C600626005 /* AppDelegate.swift */; };
 		A73ED0F31D8594C600626005 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A73ED0F21D8594C600626005 /* GameScene.sks */; };
 		A73ED0F51D8594C600626005 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A73ED0F41D8594C600626005 /* Actions.sks */; };
-		A73ED0F71D8594C600626005 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73ED0F61D8594C600626005 /* GameScene.swift */; };
 		A73ED0F91D8594C600626005 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73ED0F81D8594C600626005 /* GameViewController.swift */; };
 		A73ED0FC1D8594C600626005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73ED0FA1D8594C600626005 /* Main.storyboard */; };
 		A73ED0FE1D8594C600626005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73ED0FD1D8594C600626005 /* Assets.xcassets */; };
 		A73ED1011D8594C600626005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73ED0FF1D8594C600626005 /* LaunchScreen.storyboard */; };
+		A73ED10A1D85954B00626005 /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73ED1091D85954B00626005 /* SpriteComponent.swift */; };
+		A73ED10D1D85963C00626005 /* PlayerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73ED10C1D85963B00626005 /* PlayerEntity.swift */; };
+		A76DCA6D1D8D4BE9007AC1FB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DCA6C1D8D4BE9007AC1FB /* WelcomeViewController.swift */; };
+		A7F61A431D8D79FF00358F6A /* LevelSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F61A421D8D79FF00358F6A /* LevelSelectController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A72AE7811D85C0F200EAC46A /* AccelerometerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccelerometerComponent.swift; path = Components/AccelerometerComponent.swift; sourceTree = "<group>"; };
+		A72AE7841D85C4CD00EAC46A /* InvertoMoverComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InvertoMoverComponent.swift; path = Components/InvertoMoverComponent.swift; sourceTree = "<group>"; };
 		A73ED0ED1D8594C600626005 /* InvertoXVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvertoXVI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73ED0F01D8594C600626005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A73ED0F21D8594C600626005 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +36,10 @@
 		A73ED0FD1D8594C600626005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73ED1001D8594C600626005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73ED1021D8594C600626005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73ED1091D85954B00626005 /* SpriteComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpriteComponent.swift; path = Components/SpriteComponent.swift; sourceTree = "<group>"; };
+		A73ED10C1D85963B00626005 /* PlayerEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerEntity.swift; path = Entitites/PlayerEntity.swift; sourceTree = "<group>"; };
+		A76DCA6C1D8D4BE9007AC1FB /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ViewControllers/WelcomeViewController.swift; sourceTree = "<group>"; };
+		A7F61A421D8D79FF00358F6A /* LevelSelectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LevelSelectController.swift; path = ViewControllers/LevelSelectController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A703D6231D873BF8007A79F9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A73ED0F81D8594C600626005 /* GameViewController.swift */,
+				A76DCA6C1D8D4BE9007AC1FB /* WelcomeViewController.swift */,
+				A7F61A421D8D79FF00358F6A /* LevelSelectController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		A73ED0E41D8594C600626005 = {
 			isa = PBXGroup;
 			children = (
@@ -60,17 +82,53 @@
 		A73ED0EF1D8594C600626005 /* InvertoXVI */ = {
 			isa = PBXGroup;
 			children = (
+				A703D6231D873BF8007A79F9 /* ViewControllers */,
+				A7BCD6541D87248A00F30C39 /* Scenes */,
+				A73ED10B1D85962300626005 /* Entities */,
+				A73ED1081D85952700626005 /* Components */,
 				A73ED0F01D8594C600626005 /* AppDelegate.swift */,
-				A73ED0F21D8594C600626005 /* GameScene.sks */,
 				A73ED0F41D8594C600626005 /* Actions.sks */,
-				A73ED0F61D8594C600626005 /* GameScene.swift */,
-				A73ED0F81D8594C600626005 /* GameViewController.swift */,
 				A73ED0FA1D8594C600626005 /* Main.storyboard */,
 				A73ED0FD1D8594C600626005 /* Assets.xcassets */,
 				A73ED0FF1D8594C600626005 /* LaunchScreen.storyboard */,
 				A73ED1021D8594C600626005 /* Info.plist */,
 			);
 			path = InvertoXVI;
+			sourceTree = "<group>";
+		};
+		A73ED1081D85952700626005 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A73ED1091D85954B00626005 /* SpriteComponent.swift */,
+				A72AE7811D85C0F200EAC46A /* AccelerometerComponent.swift */,
+				A72AE7841D85C4CD00EAC46A /* InvertoMoverComponent.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		A73ED10B1D85962300626005 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A73ED10C1D85963B00626005 /* PlayerEntity.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		A7BCD6541D87248A00F30C39 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A73ED0F21D8594C600626005 /* GameScene.sks */,
+				A73ED0F61D8594C600626005 /* GameScene.swift */,
+				A7BCD6551D87249000F30C39 /* Levels */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		A7BCD6551D87249000F30C39 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +206,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73ED0F71D8594C600626005 /* GameScene.swift in Sources */,
+				A73ED10D1D85963C00626005 /* PlayerEntity.swift in Sources */,
 				A73ED0F91D8594C600626005 /* GameViewController.swift in Sources */,
+				A76DCA6D1D8D4BE9007AC1FB /* WelcomeViewController.swift in Sources */,
+				A72AE7851D85C4CD00EAC46A /* InvertoMoverComponent.swift in Sources */,
+				A72AE7831D85C20800EAC46A /* AccelerometerComponent.swift in Sources */,
+				A73ED10A1D85954B00626005 /* SpriteComponent.swift in Sources */,
+				A72AE7861D85DF6100EAC46A /* GameScene.swift in Sources */,
+				A7F61A431D8D79FF00358F6A /* LevelSelectController.swift in Sources */,
 				A73ED0F11D8594C600626005 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5P5BQD928R;
 				INFOPLIST_FILE = InvertoXVI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = marcusstenbeck.InvertoXVI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5P5BQD928R;
 				INFOPLIST_FILE = InvertoXVI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = marcusstenbeck.InvertoXVI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +378,7 @@
 				A73ED1071D8594C600626005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

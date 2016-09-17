@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,14 +16,34 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="inverto" translatesAutoresizingMaskIntoConstraints="NO" id="dJm-Jl-w7C"/>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dJm-Jl-w7C" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="3T9-Zi-SqM"/>
+                            <constraint firstItem="dJm-Jl-w7C" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="46m-V1-5tb"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="dJm-Jl-w7C" secondAttribute="bottom" id="9YX-Or-RJm"/>
+                            <constraint firstAttribute="trailing" secondItem="dJm-Jl-w7C" secondAttribute="trailing" id="Icd-ou-SJU"/>
+                            <constraint firstItem="dJm-Jl-w7C" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Qpn-he-k9F"/>
+                            <constraint firstItem="dJm-Jl-w7C" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="XWe-Y2-tPf"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="dJm-Jl-w7C" secondAttribute="bottom" id="YWr-P2-zi0"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="dJm-Jl-w7C" secondAttribute="bottom" id="enD-J2-Uwu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dJm-Jl-w7C" secondAttribute="trailing" id="esz-2L-ZpZ"/>
+                            <constraint firstItem="dJm-Jl-w7C" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="oJT-h4-PFh"/>
+                            <constraint firstAttribute="trailing" secondItem="dJm-Jl-w7C" secondAttribute="trailing" id="qp6-Q3-coo"/>
+                            <constraint firstItem="dJm-Jl-w7C" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="wgX-Cg-qip"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="51.724137931034484" y="373.60000000000002"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="inverto" width="32" height="32"/>
+    </resources>
 </document>
