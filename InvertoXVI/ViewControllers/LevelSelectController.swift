@@ -8,7 +8,7 @@
 
 import UIKit
 
-let foods = ["Bacon", "Eggs", "Snakes", "Danne", "Jens", "Marcus", "Ramona"]
+let foods = ["GameScene", "MyScene"]
 
 class LevelSelectController: UIViewController, UITableViewDelegate, UITableViewDataSource {
   

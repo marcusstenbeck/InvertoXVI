@@ -21,11 +21,9 @@ class GameViewController: UIViewController {
     
     labelThing.text = levelName
     
-    print(navigationController)
-    
     if let view = self.view as! SKView? {
       // Load the SKScene from 'GameScene.sks'
-      if let scene = SKScene(fileNamed: "GameScene") as? GameScene {
+      if let scene = SKScene(fileNamed: levelName) as? GameScene {
         
         scene.enumerateChildNodes(withName: "player", using: {
           (node, _) in
@@ -41,6 +39,8 @@ class GameViewController: UIViewController {
         
         // Present the scene
         view.presentScene(scene)
+      } else {
+        performSegue(withIdentifier: "gotoMenu", sender: self)
       }
       
       view.ignoresSiblingOrder = true

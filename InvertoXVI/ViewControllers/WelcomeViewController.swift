@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.
+//  WelcomeViewController.swift
 //  InvertoXVI
 //
 //  Created by Marcus Stenbeck on 17/09/16.
@@ -10,12 +10,6 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
   
-  @IBAction func returnFromSegueActions(sender: UIStoryboardSegue) {
-  }
-  
-  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    super.prepare(for: segue, sender: sender)
-    print("prepforsegue main")
-  }
+  @IBAction func returnFromSegueActions(sender: UIStoryboardSegue) {}
 
 }

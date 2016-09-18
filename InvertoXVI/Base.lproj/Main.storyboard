@@ -72,7 +72,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="7Pa-f6-wtE" kind="unwind" unwindAction="returnFromSegueActionsWithSender:" id="YTI-nE-2sx"/>
+                                    <segue destination="7Pa-f6-wtE" kind="unwind" unwindAction="returnFromSegueActionsWithSender:" id="FJF-K5-vII"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mef-tq-zem">
@@ -87,6 +87,7 @@
                     </view>
                     <connections>
                         <outlet property="labelThing" destination="Mef-tq-zem" id="P16-az-OXF"/>
+                        <segue destination="7Pa-f6-wtE" kind="unwind" identifier="gotoMenu" unwindAction="returnFromSegueActionsWithSender:" id="qVh-Sn-EII"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GHk-Pu-0qH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -150,6 +151,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="K38-2b-lcS"/>
+        <segue reference="3cg-pV-Gcg"/>
     </inferredMetricsTieBreakers>
 </document>
